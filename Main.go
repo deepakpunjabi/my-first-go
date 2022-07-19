@@ -1,9 +1,9 @@
 package main
 
 import (
-	"./ds"
 	"fmt"
-	"./algo"
+	"github.com/deepakpunjabi/my-first-go/algo"
+	"github.com/deepakpunjabi/my-first-go/ds"
 	"os"
 	"strconv"
 )
@@ -19,7 +19,6 @@ func toInt(data string) int {
 
 func main() {
 
-
 	fmt.Println("Running...")
 
 	id := 1
@@ -28,19 +27,19 @@ func main() {
 
 	//fmt.Println(args[1])
 	numVertices := toInt(args[id])
-	fmt.Println("numVertices",numVertices)
+	fmt.Println("numVertices", numVertices)
 	id++
 	numEdges := toInt(args[id])
 	id++
 
 	// initialize
 	g := ds.CreateGraph(numVertices)
-	for i:= 0; i < numEdges; i++ {
+	for i := 0; i < numEdges; i++ {
 		u := toInt(args[id])
 		id++
 		v := toInt(args[id])
 		id++
-		g.AddEdge(u,v)
+		g.AddEdge(u, v)
 	}
 
 	g.Print()

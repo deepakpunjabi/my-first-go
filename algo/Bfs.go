@@ -2,7 +2,7 @@ package algo
 
 import (
 	"fmt"
-	"../ds"
+	"github.com/deepakpunjabi/my-first-go/ds"
 )
 
 func PrintBfs(g ds.Graph) {

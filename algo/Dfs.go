@@ -1,8 +1,8 @@
 package algo
 
 import (
-	"../ds"
 	"fmt"
+	"github.com/deepakpunjabi/my-first-go/ds"
 )
 
 func PrintDfs(g ds.Graph) {

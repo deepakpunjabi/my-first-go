@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/deepakpunjabi/my-first-go/algo"
-	"github.com/deepakpunjabi/my-first-go/ds"
 	"os"
 	"strconv"
+
+	"github.com/deepakpunjabi/my-first-go/algo"
+	"github.com/deepakpunjabi/my-first-go/ds"
 )
 
 func toInt(data string) int {

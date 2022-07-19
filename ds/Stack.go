@@ -9,7 +9,7 @@ func (s *Stack) Top() int {
 }
 
 func (s *Stack) Push(data int) {
-	s.stack = append([]int {data}, s.stack...)
+	s.stack = append([]int{data}, s.stack...)
 }
 
 func (s *Stack) Pop() {

@@ -9,7 +9,7 @@ type Node struct {
 	value int
 }
 
-func createNode(val int) Node{
+func createNode(val int) Node {
 	node := Node{val}
 	return node
 }
